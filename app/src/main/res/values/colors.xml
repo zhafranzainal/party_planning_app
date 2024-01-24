@@ -6,4 +6,5 @@
     <color name="grey">#58595B</color>
     <color name="light_grey">#919293</color>
     <color name="warning">#D10000</color>
+    <color name="ic_launcher_background">#FF8F8F</color>
 </resources>
