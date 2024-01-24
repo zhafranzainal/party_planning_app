@@ -15,7 +15,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
-public class displayActivity extends AppCompatActivity {
+public class DisplayActivity extends AppCompatActivity {
     private EditText suggestActivity, description;
     private DatabaseReference databaseReference;
     private ValueEventListener valueEventListener;
@@ -44,7 +44,7 @@ public class displayActivity extends AppCompatActivity {
 
             @Override
             public void onCancelled(DatabaseError error) {
-                Toast.makeText(displayActivity.this, "Failed to load.", Toast.LENGTH_SHORT).show();
+                Toast.makeText(DisplayActivity.this, "Failed to load.", Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -85,7 +85,7 @@ public class displayActivity extends AppCompatActivity {
         suggestActivity.setText("");
         description.setText("");
         Toast.makeText(this, "Deleted", Toast.LENGTH_SHORT).show();
-        Intent intent = new Intent(displayActivity.this, MenuSelection.class);
+        Intent intent = new Intent(DisplayActivity.this, MenuSelection.class);
         startActivity(intent);
     }
 

@@ -48,7 +48,7 @@ public class PartySuggestionForm extends AppCompatActivity {
             // Show success toast message
             Toast.makeText(PartySuggestionForm.this, "Great Suggestion!", Toast.LENGTH_SHORT).show();
 
-            Intent intent = new Intent(PartySuggestionForm.this, displayActivity.class);
+            Intent intent = new Intent(PartySuggestionForm.this, DisplayActivity.class);
             startActivity(intent);
         }
     }

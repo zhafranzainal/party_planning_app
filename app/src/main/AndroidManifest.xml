@@ -58,7 +58,7 @@
             android:name=".DisplayWish"
             android:exported="false" />
         <activity
-            android:name=".displayActivity"
+            android:name=".DisplayActivity"
             android:exported="false" />
         <activity
             android:name=".PartySuggestionForm"
